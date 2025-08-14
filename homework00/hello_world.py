@@ -1,3 +1,7 @@
+"""Hello_world docstring"""
+
+
 def text():
-    message = 'Всем привет!'
+    """docstring"""
+    message = "Всем привет!"
     return message
