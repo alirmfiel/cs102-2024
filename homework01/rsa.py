@@ -1,5 +1,3 @@
-# Создать правильную версию rsa.py
-cat > homework01/rsa.py << 'EOF'
 import random
 import typing as tp
 
