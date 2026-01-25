@@ -12,13 +12,13 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     """
     ciphertext = ""
     for char in plaintext:
-        if char.isupper(): #True if letters are in uppercase, else->False
-            symb = 'A'
+        if char.isupper(): 
+            symb = "A"
             code = ord(char) - ord(symb)
             new_code = (code + shift) % 26
             ciphertext += chr(ord(symb) + new_code)
         elif char.islower():
-            symb = 'a'
+            symb = "a"
             code = ord(char) - ord(symb)
             new_code = (code + shift) % 26
             ciphertext += chr(ord(symb) + new_code)
