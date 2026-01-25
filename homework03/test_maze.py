@@ -1,6 +1,6 @@
 import unittest
 from random import seed
-import maze
+from . import maze
 
 
 class MazeTest(unittest.TestCase):
